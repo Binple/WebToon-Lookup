@@ -11,10 +11,10 @@ export default class LookupService {
 
 	// 다음과 네이버에 대한 구현 코드를 분리 한다.
 	get service() {
-		if (this.portal === 'DAUM') {
+		if (this.portal.toUpperCase() === 'DAUM' || this.portal === '다음') {
 			return lookupDaumService;
 		}
-		if (this.portal === 'NAVER') {
+		if (this.portal.toUpperCase() === 'NAVER' || this.portal === '네이버') {
 			return lookupNaverService;
 		}
 		throw new WebToonException(400, 'portal을 바르게 입력하여 주십시오.');
