@@ -19,6 +19,7 @@ To-Do List
 ---
 1. Test Unit은 어떻게 만들어야 하는가?
 1. Error Exception 에 대하여 좀 더 유연 하게 대체 할 수 있을지?
+    1. http response 상태에 따른 대처도 고민해 봐야 할 듯 싶다.
 1. Request 요청시 파라미터에 대한 Validation 을 좀 더 편하게 할 수 있을 방법은?
 1. nodejs 에서 swagger 의 다른 활용법은?
 1. 디버깅시 로그 보는 다른 방법들은?
